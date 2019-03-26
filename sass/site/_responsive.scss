@@ -1,0 +1,315 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Basics
+--------------------------------------------------------------*/
+
+
+@media all and (min-width: 1201px) {
+
+}
+
+@media all and (max-width: 1200px) {
+
+}
+
+@media all and (max-width: 992px) {
+	.block-grid.two-up > li {
+		width: 100%;
+		padding: 0 2em 2em 2em;
+	}
+
+	.otw-portfolio-item:hover .otw-info::after {
+		top: 3.25em;
+	}
+
+	.otw-info__btn {
+		right: -3.75%;
+		bottom: -4.4%;
+	}
+
+	.about-bio-container {
+		margin-left: 0;
+	}
+
+	.container.about {
+		width: 75%;
+	}
+
+	.row.about {
+		height: auto;
+	} 
+
+	.resume-wrapper {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 768px) {
+
+	body,
+	button,
+	input,
+	select,
+	optgroup,
+	textarea {
+		font-size: 11px;
+	}
+
+	.main-info__container .widget-area {
+		position: relative;
+		width: 100%;
+		top: 115px;
+	}
+
+	.main-info__title:after {
+		animation-duration: 1s;
+	}
+
+	@keyframes linetwo {
+		0% {
+			height: 0;
+		}
+
+		100% {
+			height: 10em;
+		}
+	}
+
+	.main-info .lower {
+		display: inline-block;
+	}
+
+	.main-info__name {
+		margin-bottom: .5em;
+	}
+
+	.otw-info__btn {
+	    right: -3%;
+	    bottom: -3.5%;
+	}
+
+	.main-navigation ul {
+		display: block;
+	}
+
+	.menu-primary-container {
+		width: 100%;
+
+		li:first-child a {
+			margin-left: 0;
+		}
+
+		li a {
+
+		}
+	}
+
+	.frame__info {
+		left: auto;
+		right: $frame_border_width;
+	}
+
+	.interests-label {
+		display: none;
+	}
+
+	.interests-item {
+		padding: 0 .5em;
+	}
+
+	.container.about {
+		width: 80%;
+	}
+
+	.otws-content-container {
+		padding-right: 0;
+	}
+
+	.otws-details {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: none;
+	}
+
+	.otws-carousel {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: none;
+	}
+
+	.otws-detail__item {
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		padding: 0 1em;
+	}
+
+	.otw-sc-quote {
+		margin-left: -1em;
+		margin-right: -1em;
+	}
+
+	.resume__body-left {
+		border-right: 0;
+	}
+
+	.resume__body-right {
+		padding-bottom: 0;
+		.row  {
+			-ms-flex-wrap: nowrap;
+			flex-wrap: nowrap;
+		}
+		
+	}
+
+	.right--top,
+	.right--middle,
+	.right--bottom {
+		-webkit-box-flex: 1;
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+	}
+
+	.right--top {
+		padding-top: 1em;
+	    border-top: 3px solid $color__primary;
+	}
+
+	.right--middle {
+		border-left: 3px solid $color__primary;
+	    border-right: 3px solid $color__primary
+	}
+
+}
+
+@media all and (max-width: 576px) {
+
+	body {
+		font-size: 10px;
+		padding: 80px $frame_border_width_mobile 60px $frame_border_width_mobile;
+	}
+
+	.frame__top,
+	.frame__right,
+	.frame__bottom,
+	.frame__left {
+		border-width: $frame_border_width_mobile;
+	}
+
+	.frame__social {
+		left: $frame_border_width_mobile;
+	}
+
+	.frame__info {
+		right: $frame_border_width_mobile;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	.block-grid.two-up > li {
+		padding: 0 1.5em 3em 1.5em;
+	}
+
+	.container.about {
+		width: 85%;
+	} 
+
+	.stats-stats {
+		padding-left: 1em;
+		min-width: 125px;
+	}
+
+	/* HIRE ME MODAL */
+	.hire-me {
+
+		.modal-dialog {
+			margin: 1.75rem auto;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+
+		.modal-title {
+		    margin-left: 0;
+		    margin-top: -1.75em;
+		    border: 1px solid $color__secondary;
+		}
+	}
+
+	/*WORK INDIVIDUAL*/
+
+	.otws-details {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 80%;
+		flex: 0 0 80%;
+	    max-width: 300px;
+	    min-width: 150px;
+	    margin: 0 auto 2em auto;
+	}
+
+	.otws-nav {
+		right: 15px;
+	}
+
+	.right--top,
+	.right--middle,
+	.right--bottom {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+
+	.resume__body-right .row {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.interests__img img {
+		width: 100%;
+	}
+
+	.right--bottom {
+		padding-bottom:1em;
+
+		.row {
+			width: 100%;
+			max-width: 200px;
+			margin: auto;
+		}
+
+
+	}
+
+	.resume__header {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.resume__header--name,
+	.resume__header--desc {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+
+	.resume__header--name {
+		text-align: left!important;
+		margin-bottom: .5em;
+	}
+
+	.resume__info .col-sm-6 {
+		padding: 0 3em;
+	}
+
+	.right--top .fa-ul li {
+		margin: 0 1.5em;
+	}
+
+	.resume-wrapper {
+		padding: .5em;
+	}
+}

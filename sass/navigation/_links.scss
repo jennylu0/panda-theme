@@ -1,0 +1,43 @@
+a {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+		text-decoration: none;
+	}
+	&:focus {
+		/*outline: thin dotted;*/
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+p a {
+	background-color: $color__primary;
+	color: $color__secondary;
+	padding-left: .25em;
+	padding-right: .25em;
+	transition: .3s ease all;
+}
+
+p a:hover,
+p a:visited {
+	color: $color__secondary!important;
+}
+
+::selection { /* Code for Firefox */
+  color: $color__secondary;
+  background: $color__primary;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: $color__secondary;
+  background: $color__primary;
+}
