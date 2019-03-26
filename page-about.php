@@ -46,22 +46,22 @@ get_header();
 
 											<div class="stats-wrapper">
 												<span class="stats-item">
-													<span class="stats-label">Atk:</span> 00
+													<span class="stats-label">Atk:</span> 40%
 												</span>
 												<span class="stats-item">
-													<span class="stats-label">Int:</span> 00
+													<span class="stats-label">Int:</span> 30%
 												</span>
 												<span class="stats-item">
-													<span class="stats-label">Def:</span> 00
+													<span class="stats-label">Def:</span> 5%
 												</span>
 												<span class="stats-item">
-													<span class="stats-label">Stg:</span> 00
+													<span class="stats-label">Stg:</span> 15%
 												</span>
 												<span class="stats-item">
-													<span class="stats-label">Spd:</span> 00
+													<span class="stats-label">Spd:</span> 10%
 												</span>
 												<span class="stats-item">
-													<span class="stats-label">Mgc:</span> 00
+													<span class="stats-label">Mgc:</span> 00%
 												</span>
 											</div>
 										</div>
@@ -74,7 +74,7 @@ get_header();
 													<img src="https://placehold.it/100x100" class="img-fluid">
 												</div>
 												<div class="interests-label">
-													Label
+													Crafting
 												</div>
 											</div>
 											<div class="interests-item">
@@ -82,7 +82,7 @@ get_header();
 													<img src="https://placehold.it/100x100" class="img-fluid">
 												</div>
 												<div class="interests-label">
-													Label
+													DRJ
 												</div>
 											</div>
 											<div class="interests-item">
@@ -90,7 +90,7 @@ get_header();
 													<img src="https://placehold.it/100x100" class="img-fluid">
 												</div>
 												<div class="interests-label">
-													Label
+													Fitness
 												</div>
 											</div>
 											<div class="interests-item">
@@ -98,7 +98,7 @@ get_header();
 													<img src="https://placehold.it/100x100" class="img-fluid">
 												</div>
 												<div class="interests-label">
-													Label
+													Art
 												</div>
 											</div>
 											<div class="interests-item">
@@ -106,7 +106,7 @@ get_header();
 													<img src="https://placehold.it/100x100" class="img-fluid">
 												</div>
 												<div class="interests-label">
-													Label
+													Marvel
 												</div>
 											</div>
 										</div>

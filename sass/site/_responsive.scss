@@ -43,6 +43,9 @@
 	.resume-wrapper {
 		width: 100%;
 	}
+	
+
+
 }
 
 @media all and (max-width: 768px) {
@@ -181,6 +184,24 @@
 	.right--middle {
 		border-left: 3px solid $color__primary;
 	    border-right: 3px solid $color__primary
+	}
+
+	.right--bottom {
+		.row {
+			flex-wrap: wrap;
+		}
+	}
+
+	.resume__info {
+	  
+		.row {
+			flex-wrap: wrap;
+		}
+
+		.col-md-3 {
+			flex: 1 1 auto;
+			max-width: none;
+		}
 	}
 
 }

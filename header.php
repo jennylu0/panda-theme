@@ -24,9 +24,9 @@
 
 <div class="frame">
 	<div class="frame__social">
-		<a href="#" target="_blank"><i class="fab fa-fw fa-github"></i></a>
-		<a href="#" target="_blank"><i class="fab fa-fw fa-linkedin"></i></a>
-		<a href="#" target="_blank"><i class="fas fa-fw fa-envelope-open-text"></i></a>
+		<a href="https://github.com/jennylu0" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+		<a href="https://www.linkedin.com/in/jennifer-lu0/" target="_blank"><i class="fab fa-fw fa-linkedin"></i></a>
+		<a href="mailto:jennyluo.jyl@gmail.com" target="_blank"><i class="fas fa-fw fa-envelope-open-text"></i></a>
 	</div>
 
 	<div class="frame__info">
@@ -86,7 +86,7 @@
       			<i class="far fa-envelope"></i>
       		</div>
       		<div class="contact-link">
-      			<a href="#">jennyluo.jyl@gmail.com</a>
+      			<a href="mailto:jennyluo.jyl@gmail.com">jennyluo.jyl@gmail.com</a>
       		</div>
       	</div>
 
@@ -95,7 +95,7 @@
       			<i class="fab fa-linkedin-in"></i>
       		</div>
       		<div class="contact-link">
-      			<a href="#">Jennifer Luo</a>
+      			<a href="https://www.linkedin.com/in/jennifer-lu0/">Jennifer Luo</a>
       		</div>
       	</div>
 
@@ -104,7 +104,7 @@
       			<i class="fab fa-github"></i>
       		</div>
       		<div class="contact-link">
-      			<a href="#">Jennylu0</a>
+      			<a href="https://github.com/jennylu0">Jennylu0</a>
       		</div>
       	</div>
 

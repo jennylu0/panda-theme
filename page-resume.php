@@ -65,7 +65,7 @@ get_header();
 			</div>
 
 			<div class="resume__header--desc">
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+				<p>Creative front-end developer with an eye for design and a passion for developing cutting-edge web solutions that are not only functional, but beautiful as well. Capable of massive multitasking, untangling spaghetti code, and using digital black magic to translate a flat design into a viable web solution. </p>
 			</div>	
 		</div>
 
@@ -73,22 +73,22 @@ get_header();
 			<div class="row">
 				<div class="col-md-3 col-sm-6 col-xs-12 mb-md-0 mb-2">
 					<ul class="fa-ul">
-						<li><span class="fa-li" ><i class="fas fa-envelope"></i></span>Email address</li>
+						<li><span class="fa-li" ><i class="fas fa-envelope"></i></span>Jennyluo.jyl@gmail.com</li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 mb-md-0 mb-2">
 					<ul class="fa-ul">
-						<li><span class="fa-li" ><i class="fas fa-desktop"></i></span>Website link</li>
+						<li><span class="fa-li" ><i class="fas fa-desktop"></i></span>Jennyluo.com</li>
 					</ul>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 mb-md-0 mb-2">
+				<!-- <div class="col-md-3 col-sm-6 col-xs-12 mb-md-0 mb-2">
 					<ul class="fa-ul">
-						<li><span class="fa-li" ><i class="fas fa-phone"></i></span>Phone</li>
+						<li><span class="fa-li" ><i class="fas fa-phone"></i></span>000-000-0000</li>
 					</ul>
-				</div>
+				</div> -->
 				<div class="col-md-3 col-sm-6 col-xs-12 mb-md-0 mb-2">
 					<ul class="fa-ul">
-						<li><span class="fa-li" ><i class="fas fa-map-marker-alt"></i></span>Physical address</li>
+						<li><span class="fa-li" ><i class="fas fa-map-marker-alt"></i></span>Chicago, IL</li>
 					</ul>
 				</div>
 			</div>
@@ -101,22 +101,70 @@ get_header();
 				<div class="resume-item">
 					<div class="resume-item__header">
 						<span class="resume-item__title">
-							Longer title here
+							Slack and Company
 						</span>
 						<span class="resume-item__date">
-							20xx-20xx
+							2017-Present
 						</span>
 						<div class="resume-item__desc">
-							<span>Title here</span>
+							<span>Front-End Web Developer, Digital Strategist</span>
 						</div>
 					</div>
 
 					<div class="resume-item__body">
 						<ul class="list-custom">
-							<li>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</li>
-							<li>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </li>
-							<li>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. </li>
-							<li>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </li>
+							<li>Worked closely with designers and copywriters to create graceful web solutions that fit the client’s needs</li>
+							<li>Managed and developed many high priority digital projects with completing deadlines as digital lead and developer </li>
+							<li>Acted as a liaison between Slack and Company and client IT departments, as well as third party digital vendors, to facilitate technical communications</li>
+							<li>Adapted to and learned many new web technologies required on projects rapidly and accurately </li>
+							<li>Implemented modern processes to improve internal workflows and adhere to best practices, replacing previously inefficient, outdated practices </li>
+
+						</ul>
+					</div>
+				</div>
+
+				<div class="resume-item">
+					<div class="resume-item__header">
+						<span class="resume-item__title">
+							University of Oregon, AEI
+						</span>
+						<span class="resume-item__date">
+							2016-2017
+						</span>
+						<div class="resume-item__desc">
+							<span>Multimedia production specialist </span>
+						</div>
+					</div>
+
+					<div class="resume-item__body">
+						<ul class="list-custom">
+							<li>Pioneered a complete brand overhaul, including a website, of the department in order to comply with new University Global Marketing standards </li>
+							<li>Launched print and email campaigns to improve enrollment and student retention </li>
+							<li>Met regularly with other department designers and global Marcom to facilitate brand centralization of the UO brand for a modern, united look</li>
+
+						</ul>
+					</div>
+				</div>
+
+				<div class="resume-item">
+					<div class="resume-item__header">
+						<span class="resume-item__title">
+							University of Oregon, EMU
+						</span>
+						<span class="resume-item__date">
+							2014-2016
+						</span>
+						<div class="resume-item__desc">
+							<span>Designer & Front-end web developer </span>
+						</div>
+					</div>
+
+					<div class="resume-item__body">
+						<ul class="list-custom">
+							<li>Developed Wordpress websites to be maintainable by nontechnical staff and scalable for annual themed reskins </li>
+							<li>Facilitated communication between student union organizations and designers to create effective, cohesive promotional content</li>
+							<li>Launched print, web, and social media campaigns to promote the renovation of the student union building</li>
+
 						</ul>
 					</div>
 				</div>
@@ -129,17 +177,34 @@ get_header();
 					<div class="right--top col-sm-12">
 						<div class="resume__title d-block d-md-none"><span>Info</span></div>
 						<ul class="fa-ul">
-							<li><span class="fa-li" ><i class="fas fa-graduation-cap"></i></span>Education</li>
-							<li><span class="fa-li" ><i class="fas fa-language"></i></span>Languages</li>
+							<li><span class="fa-li" ><i class="fas fa-graduation-cap"></i></span>University of Oregon, Eugene, OR 2015<br>
+Bachelor of Science, Major in Digital Arts, Minor in Computer Information Technology 
+</li>
+							<li><span class="fa-li" ><i class="fas fa-language"></i></span>EN/CN</li>
 						</ul>
 					</div>
 
 					<div class="right--middle col-sm-12 text-center">
 						<div class="resume__title"><span>Skills</span></div>
 						<ul class="list-none text-center">
-							<li>List item 1</li>
-							<li>List item 2</li>
-							<li>kill me</li>
+							<li>HTML/CSS</li>
+							<li>JavaScript</li>
+							<li>jQuery</li>
+							<li>Bootstrap 3 & 4</li>
+
+							<li>DNN 9</li>
+							<li>Wordpress</li>
+							<li>Drupal 7</li>
+							<li>Kentico</li>
+
+							<li>Pardot</li>
+							<li>Eloqua</li>
+
+							<li>Adobe creative suite </li>
+							<li>Microsoft suite </li>
+							<li>Sketch</li>
+							<li>Adobe XD</li>
+
 						</ul>
 					</div>
 
@@ -147,55 +212,55 @@ get_header();
 						<div class="resume__title"><span>Interests</span></div>
 
 						<div class="row">
-							<div class="col-sm-4 col-4">
+							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
 									<img src="https://placehold.it/100x100" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
-									Name here
+									Art
 								</div>
 							</div>
-							<div class="col-sm-4 col-4">
+							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
 									<img src="https://placehold.it/100x100" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
-									Name here
+									Comics
 								</div>
 							</div>
-							<div class="col-sm-4 col-4">
+							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
 									<img src="https://placehold.it/100x100" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
-									Name here
+									EDM
 								</div>
 							</div>
 						</div>
 
 						<div class="row">
-							<div class="col-sm-4 col-4">
+							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
 									<img src="https://placehold.it/100x100" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
-									Name here
+									Sewing
 								</div>
 							</div>
-							<div class="col-sm-4 col-4">
+							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
 									<img src="https://placehold.it/100x100" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
-									Name here
+									Fashion
 								</div>
 							</div>
-							<div class="col-sm-4 col-4">
+							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
 									<img src="https://placehold.it/100x100" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
-									Name here
+									Fitness
 								</div>
 							</div>
 						</div>
