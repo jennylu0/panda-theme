@@ -55,7 +55,7 @@ get_header();
 		<div class="resume">
 		<div class="resume__header">
 			<div class="resume__header--logo d-none d-md-block">
-				<img src="https://placehold.it/100x100">
+				<img src="/wp-content/uploads/2019/05/jyl-logo.png">
 			</div>
 			<div class="resume__header--name text-right">
 				Jenny<span>Luo</span>
@@ -113,11 +113,16 @@ get_header();
 
 					<div class="resume-item__body">
 						<ul class="list-custom">
-							<li>Worked closely with designers and copywriters to create graceful web solutions that fit the client’s needs</li>
-							<li>Managed and developed many high priority digital projects with completing deadlines as digital lead and developer </li>
-							<li>Acted as a liaison between Slack and Company and client IT departments, as well as third party digital vendors, to facilitate technical communications</li>
-							<li>Adapted to and learned many new web technologies required on projects rapidly and accurately </li>
-							<li>Implemented modern processes to improve internal workflows and adhere to best practices, replacing previously inefficient, outdated practices </li>
+							<li>Worked closely with designers and copywriters to ensure that design solutions were viable for web </li>
+							<li>Managed multiple high priority projects with completing deadlines as digital lead and developer </li>
+							<li>Facilitated technical communications as digital liaison between the agency and client IT and third party digital service vendors</li>
+							<li>Implemented modern processes to improve internal workflows and employ best practices </li>
+							<li>Helped scope project parameters, timelines, and budgets </li>
+							<li>Developed a wide variety of digital assets for clients, including landing pages, HTML emails, microsites, ebooks and web apps</li>
+							<li>Key participant in guiding and conducting corporate website rebrand projects</li>
+							<li>Implemented Google analytics and Google Tag Manager tracking for complex web apps</li>
+							<li>Built large-scale marketing automation campaigns in enterprise level CRMs</li>
+
 
 						</ul>
 					</div>
@@ -191,14 +196,15 @@ Bachelor of Science, Major in Digital Arts, Minor in Computer Information Techno
 							<li>JavaScript</li>
 							<li>jQuery</li>
 							<li>Bootstrap 3 & 4</li>
+							<li class="mb-2">SASS</li>
 
-							<li>DNN 9</li>
+							<li>DNN</li>
 							<li>Wordpress</li>
-							<li>Drupal 7</li>
-							<li>Kentico</li>
+							<li>Drupal</li>
+							<li class="mb-2">Kentico</li>
 
 							<li>Pardot</li>
-							<li>Eloqua</li>
+							<li class="mb-2">Eloqua</li>
 
 							<li>Adobe creative suite </li>
 							<li>Microsoft suite </li>
@@ -214,7 +220,7 @@ Bachelor of Science, Major in Digital Arts, Minor in Computer Information Techno
 						<div class="row">
 							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
-									<img src="https://placehold.it/100x100" class="img-fluid">
+									<img src="/wp-content/uploads/2019/05/icon-illustration-01.png" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
 									Art
@@ -222,7 +228,7 @@ Bachelor of Science, Major in Digital Arts, Minor in Computer Information Techno
 							</div>
 							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
-									<img src="https://placehold.it/100x100" class="img-fluid">
+									<img src="/wp-content/uploads/2019/05/icon-comics-01.png" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
 									Comics
@@ -230,7 +236,7 @@ Bachelor of Science, Major in Digital Arts, Minor in Computer Information Techno
 							</div>
 							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
-									<img src="https://placehold.it/100x100" class="img-fluid">
+									<img src="/wp-content/uploads/2019/05/icon-edm-01.png" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
 									EDM
@@ -241,7 +247,7 @@ Bachelor of Science, Major in Digital Arts, Minor in Computer Information Techno
 						<div class="row">
 							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
-									<img src="https://placehold.it/100x100" class="img-fluid">
+									<img src="/wp-content/uploads/2019/05/icon-sewing-01.png" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
 									Sewing
@@ -249,7 +255,7 @@ Bachelor of Science, Major in Digital Arts, Minor in Computer Information Techno
 							</div>
 							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
-									<img src="https://placehold.it/100x100" class="img-fluid">
+									<img src="/wp-content/uploads/2019/05/icon-fashion-01.png" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
 									Fashion
@@ -257,7 +263,7 @@ Bachelor of Science, Major in Digital Arts, Minor in Computer Information Techno
 							</div>
 							<div class="col-sm-4 col-4 interest-item">
 								<div class="interests__img mb-2 mt-2">
-									<img src="https://placehold.it/100x100" class="img-fluid">
+									<img src="/wp-content/uploads/2019/05/icon-fitness-01.png" class="img-fluid">
 								</div>
 								<div class="interests__name d-none d-lg-block text-center">
 									Fitness

@@ -26,7 +26,7 @@ get_header();
 								<div class="about-title">Profile</div>
 								<div class="about-body">
 									<div class="about-body__stats d-flex justify-content-between align-items-center">
-										<div class="stats-img"><img src="https://placehold.it/200x300" class="img-fluid"></div>
+										<div class="stats-img"><img src="/wp-content/themes/panda/images/icon-px-profile.png" class="img-fluid"></div>
 										<div class="stats-stats">
 											<div class="stats-wrapper">
 												<span class="stats-label">Name:</span> Jenny
@@ -46,7 +46,7 @@ get_header();
 
 											<div class="stats-wrapper">
 												<span class="stats-item">
-													<span class="stats-label">Atk:</span> 40%
+													<span class="stats-label">Atk:</span> +9000%
 												</span>
 												<span class="stats-item">
 													<span class="stats-label">Int:</span> 30%
@@ -71,7 +71,7 @@ get_header();
 										<div class="interests-item-container">
 											<div class="interests-item">
 												<div class="interests-icon">	
-													<img src="https://placehold.it/100x100" class="img-fluid">
+													<img src="/wp-content/themes/panda/images/icon-px-crafting.png" class="img-fluid">
 												</div>
 												<div class="interests-label">
 													Crafting
@@ -79,15 +79,15 @@ get_header();
 											</div>
 											<div class="interests-item">
 												<div class="interests-icon">	
-													<img src="https://placehold.it/100x100" class="img-fluid">
+													<img src="/wp-content/themes/panda/images/icon-px-drj.png" class="img-fluid">
 												</div>
 												<div class="interests-label">
-													DRJ
+													The Rock
 												</div>
 											</div>
 											<div class="interests-item">
 												<div class="interests-icon">	
-													<img src="https://placehold.it/100x100" class="img-fluid">
+													<img src="/wp-content/themes/panda/images/icon-px-fitness.png" class="img-fluid">
 												</div>
 												<div class="interests-label">
 													Fitness
@@ -95,18 +95,18 @@ get_header();
 											</div>
 											<div class="interests-item">
 												<div class="interests-icon">	
-													<img src="https://placehold.it/100x100" class="img-fluid">
+													<img src="/wp-content/themes/panda/images/icon-px-gaming.png" class="img-fluid">
 												</div>
 												<div class="interests-label">
-													Art
+													Gaming
 												</div>
 											</div>
 											<div class="interests-item">
 												<div class="interests-icon">	
-													<img src="https://placehold.it/100x100" class="img-fluid">
+													<img src="/wp-content/themes/panda/images/icon-px-fighting.png" class="img-fluid">
 												</div>
 												<div class="interests-label">
-													Marvel
+													Fighting
 												</div>
 											</div>
 										</div>

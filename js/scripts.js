@@ -1,19 +1,5 @@
 jQuery(document).ready(function() {
 
-	jQuery('.otw-portfolio-item').hover(
-		function() {
-			// jQuery(this).find('.otw-info').removeClass('toBack');
-			// jQuery(this).find('.otw-img').removeClass('toBack');
-		},
-
-		function() {
-			// jQuery(this).find('.otw-info').addClass('toBack');
-			// jQuery(this).find('.otw-img').addClass('toBack'); 
-		}
-
-	);
-
-
 	// Owl carousel
 	if ( jQuery('.owl-carousel').length ) {
 		jQuery(".owl-carousel").owlCarousel({
@@ -47,5 +33,7 @@ jQuery(document).ready(function() {
 
 	jQuery('.contact-modal a').attr('data-toggle', 'modal');
     jQuery('.contact-modal a').attr('data-target', $contactlink);
+
+
 
 });

@@ -95,7 +95,7 @@
       			<i class="fab fa-linkedin-in"></i>
       		</div>
       		<div class="contact-link">
-      			<a href="https://www.linkedin.com/in/jennifer-lu0/">Jennifer Luo</a>
+      			<a href="https://www.linkedin.com/in/jennifer-lu0/" target="_blank">Jennifer Luo</a>
       		</div>
       	</div>
 
@@ -104,7 +104,7 @@
       			<i class="fab fa-github"></i>
       		</div>
       		<div class="contact-link">
-      			<a href="https://github.com/jennylu0">Jennylu0</a>
+      			<a href="https://github.com/jennylu0" target="_blank">Jennylu0</a>
       		</div>
       	</div>
 

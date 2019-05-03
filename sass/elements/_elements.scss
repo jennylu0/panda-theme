@@ -583,7 +583,7 @@ figure {
 	width: 100%;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-	opacity: 0;
+	opacity: 1;
 	border: 1px solid #c1c1c1;
 }
 
@@ -625,12 +625,12 @@ figure {
 .otws-title h1 {
 	position: relative;
 	font-family: "Montserrat", "arial", sans-serif;
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 95%;
     color: $color__secondary;
-    padding: .25em 0;
+    padding: .25em 1em .25em 0;
     margin: 0;
 }
 
@@ -715,6 +715,10 @@ figure {
 .otws-client span {
 	background-color: $color__secondary;
 	padding: 0 1em;
+    position: absolute;
+    top: 0;
+    left: 3em;
+    transform: translateY(-50%);
 }
 
 
@@ -775,6 +779,10 @@ figure {
 	display: -ms-flexbox;
 	display: flex;
 	padding-left: 3em;
+}
+
+.owl-carousel {
+	/*max-width: calc(100vw - 17.25em)!important;*/
 }
 
 .owl-carousel .owl-nav button.owl-next,
@@ -894,6 +902,34 @@ figure {
 
 }
 
+.otws-details {
+	font-size: .9em;
+
+	h2 {
+	    font-size: 1em;
+	    color: $color__secondary;
+	    background-color: $color__primary;
+	    text-align: center;
+	    padding: 3px 5px;
+	    letter-spacing: 1px;
+	}
+
+	ul {
+	    margin-left: 1.5em;
+	    padding-left: 0;
+	    list-style-type: square;
+	}
+
+	li {
+		margin-bottom: .5em;
+	}
+
+	p {
+		margin: 0;
+	}
+
+}
+/*
 .otws-details h2 {
     font-size: 1em;
     color: $color__secondary;
@@ -901,21 +937,21 @@ figure {
     text-align: center;
     padding: 3px 5px;
     letter-spacing: 1px;
-}
+}*/
 
-.otws-details ul {
-    margin-left: 0;
+/*.otws-details ul {
+    margin-left: 1.5em;
     padding-left: 0;
-    list-style-type: none;
-}
+    list-style-type: square;
+}*/
 
-.otws-details li {
+/*.otws-details li {
 	margin-bottom: .5em;
-}
+}*/
 
-.otws-details p {
+/*.otws-details p {
 	margin: 0;
-}
+}*/
 
 .otws-nav__previous,
 .otws-nav__next {
@@ -978,6 +1014,38 @@ figure {
 		-webkit-transform: translateY(0%);
 		-ms-transform: translateY(0%);
 		transform: translateY(0%);
+	}
+}
+
+.owl-carousel {
+	.owl-item {
+		div {
+			position:relative;
+			transition: .3s ease all;
+			border: 1px solid #c1c1c1;
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				background-color: rgba(0,0,0,.3);
+				transition: .5s ease all;
+				opacity: 1;
+			}
+
+		}
+
+		&.active {
+			div {
+				&:after {
+					opacity: 0;
+				}
+			}
+
+		}
 	}
 }
 
@@ -1274,7 +1342,8 @@ figure {
   max-width: 800px;
   width: 90%;
   margin: auto;
-  background: url("images/grid.png") repeat $color__secondary;
+  /*background: url("images/grid.png") repeat $color__secondary;*/
+  background-color: $color__secondary;
   padding: 2em;
   border: 3px solid #000;
   position: relative;
@@ -1465,12 +1534,31 @@ figure {
 
 }
 
+/*--------------------------------------------------------------
+# 404 PAGE
+--------------------------------------------------------------*/
+
+.error-404 {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.error-404__title {
+
+}
+
+.error-404__desc {
+
+}
 
 /*--------------------------------------------------------------
 # KEYFRAMES
 --------------------------------------------------------------*/
 
-@keyframes imgout {
+@keyframes imgout { 
 	0% {
 		top:0;
 		left:0;

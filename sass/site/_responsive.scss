@@ -140,7 +140,12 @@
 		-webkit-box-flex: 0;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
-		max-width: none;
+		max-width: 100%!important;
+	}
+
+	.owl-carousel {
+		/*width: 100%;*/
+		/*max-width: 100vw;*/
 	}
 
 	.otws-detail__item {
@@ -202,6 +207,22 @@
 			flex: 1 1 auto;
 			max-width: none;
 		}
+	}
+
+	.owl-carousel .owl-nav button.owl-next {
+		&:hover {
+	    	span {
+	    		left: 0;
+	    	}
+	    }
+	}
+
+	.owl-carousel .owl-nav button.owl-prev {
+		&:hover {
+	    	span {
+	    		right: 0;
+	    	}
+	    }
 	}
 
 }
