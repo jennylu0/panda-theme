@@ -32,7 +32,7 @@
 	<div class="frame__info">
 		<div class="frame__info--icon">
 			<a href="/">
-				<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.7 81.03"><path class="cls-1" d="M84.29,65.32a14.17,14.17,0,0,1,3,9.07c0,10-9,13-14,13h0c-11,0-17-10-26-13-7.59-2.53-14,0-14,6,0,5,5,7.56,9,7,7-1,8.49-8.61,10.92-17.86,3.58-13.64,7.16-33,14.08-37.14,10-6,20,2,20,11,0,11-8,15-14,15-4,0-9.58-2-14.54-4.17-6.21-2.74-12.41-4.8-18.62-7.54-5-2.2-10.54-4.17-14.54-4.17-6,0-14,4-14,15,0,9,10,17,20,11C38.51,64.36,42.1,45,45.68,31.37c2.43-9.25,3.92-16.86,10.92-17.86,4-.57,9,2,9,7,0,6-6.41,8.53-14,6-9-3-15-13-26-13-5,0-14,3-14,13a14.17,14.17,0,0,0,3,9.07" transform="translate(-8.1 -9.93)"/></svg>
+				<img src="/wp-content/uploads/2019/05/jyl-logo.png" class="img-fluid">
 			</a>
 			<label for="mobilemenu"><i class="fas fa-bars"></i></label>
 			<input type="checkbox" id="mobilemenu" class="d-sm-none d-block">
